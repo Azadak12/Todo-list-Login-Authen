@@ -43,7 +43,7 @@ export const AuthContextProvider = ({ children }) => {
     <AuthContext.Provider value={{ user }}>
       {loading ? (
         <div className="flex flex-col items-center py-10 font-bold text-5xl">
-          Loading . . .
+          Loading . . . .
         </div>
       ) : (
         children
