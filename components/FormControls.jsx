@@ -32,7 +32,9 @@ export default function FormControls({ label, type, id, value, setValue }) {
           id={id}
           placeholder={id === "email" ? "example@email.com" : "password"}
         />
+      
       </label>
     </div>
   );
 }
+// ends here
