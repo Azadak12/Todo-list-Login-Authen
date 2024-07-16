@@ -7,7 +7,7 @@ import { useAuthContext } from "@/context/AuthContext";
 
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-
+import TodoList from "./TodoList"
 export default function Page() {
   const { user } = useAuthContext();
   const router = useRouter();
@@ -40,14 +40,15 @@ export default function Page() {
           </p>
         )}
         <h1 className="text-3xl lg:text-4xl px-8 py-7 text-center">
-          Only logged in users can view this page!
+          Todo List
         </h1>
-        <h2 className="text-2xl lg:text-3xl px-8 pb-7 text-center">
+        {/* <h2 className="text-2xl lg:text-3xl px-8 pb-7 text-center">
           Check Authentication in the Firebase console to see new user
-        </h2>
-        <Link className="btn-4" href="/signin">
+        </h2> */}
+        <Link className="btn-4 m-5" href="/signin">
           Sign Out
         </Link>
+        <TodoList/>
       </div>
     </>
   );

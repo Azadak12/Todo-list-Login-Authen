@@ -3,13 +3,13 @@ import { initializeApp, getApps } from "firebase/app";
 
 //* Add the Web App's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID,
+  apiKey: "AIzaSyA8T08q_v0Z2QXKlXlxFvnTy2q_UEa0UlU",
+  authDomain: "todoliat-6a166.firebaseapp.com",
+  projectId: "todoliat-6a166",
+  storageBucket: "todoliat-6a166.appspot.com",
+  messagingSenderId: "709369664664",
+  appId: "1:709369664664:web:5647ce5e99d85753d2aced",
+  measurementId: "G-C863SC2F59"
 };
 
 //* Initialize Firebase
